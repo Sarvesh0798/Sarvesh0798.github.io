@@ -2,6 +2,8 @@
 <html lang="en">
   <head>
     <title>Sarvesh Kothekar</title>
+    <!-- adding icon here-->
+    <link rel = "icon" href =  "images/bunty.jpg" type = "image/x-icon"> 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -122,7 +124,7 @@
 
           <div class="row">
             <div class="col-lg-8 mb-5">
-              <form action="#">
+              <form  onsubmit="sendMessage()">
                
 
                 <div class="row form-group">
@@ -161,7 +163,7 @@
 
                 <div class="row form-group">
                   <div class="col-md-12">
-                    <input type="submit" value="Send Message" class="btn btn-primary py-2 px-4 text-white">
+                    <input type="button" value="Send Message" onclick="alertFunction()" class="btn btn-primary py-2 px-4 text-white">
                   </div>
                 </div>
 
@@ -188,7 +190,6 @@
       </div>
     </div>
   </div>
-
 
   
   <footer class="site-footer">
@@ -237,6 +238,11 @@
       $('#lightgallery').lightGallery();
     });
   </script>
+<script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-database.js"></script>
+<script src="js/firebase.js"> </script>
+<script src="js/firebaseSDK.js"></script>
+
     
   </body>
 </html>

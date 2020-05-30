@@ -24,6 +24,8 @@ a {
 
 .text-black {
   color: #000 !important; }
+  .text-white {
+    color: #fff !important; }  
 
 .bg-black {
   background: #000 !important; }
@@ -519,7 +521,7 @@ a {
     min-height: 600px;
     height: calc(100vh - 73px); }
   .site-blocks-cover.inner-page-cover, .site-blocks-cover.inner-page-cover .row {
-    min-height: 600px;
+    min-height: 700px;
     height: calc(30vh); }
   .site-blocks-cover h2, .site-blocks-cover h3, .site-blocks-cover h4, .site-blocks-cover h5 {
     color: #fff; }
