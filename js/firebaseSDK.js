@@ -1,7 +1,7 @@
 (function(){
   // Your web app's Firebase configuration
   var firebaseConfig = {
-    apiKey: "AIzaSyBanKS1QoOYg_UCFPEQOojiFiwy260E6c8",
+    apiKey: "sorry",
     authDomain: "portfolio-1e14e.firebaseapp.com",
     databaseURL: "https://portfolio-1e14e.firebaseio.com",
     projectId: "portfolio-1e14e",
