@@ -37,6 +37,7 @@ function alertFunction() {
       email: email,
       subject : subj,
       message: msgbody,
-      date: firebase.database.ServerValue.TIMESTAMP
+      date: firebase.database.ServerValue.TIMESTAMP,
+      isread: false
     });
   }
